@@ -10,7 +10,7 @@ services:
       - php
     volumes:
       - ../src/:/var/www/html
-      - ../front/output:/var/www/front/output
+      - ../front:/var/www/front
     networks:
       - default
 
